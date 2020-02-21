@@ -1,0 +1,44 @@
+body{
+	background-image: url(images/cut.gif);
+	  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+.row1{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	overflow:hidden;
+}
+.row2{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	overflow:hidden;
+}
+.row3{
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	overflow:hidden;
+}
+
+
+.image{
+	height:300px;
+	width:470px;
+	background: url("images/static.gif");
+	background-size:no-repeat;
+	margin-top:10px;
+	margin-bottom:10px;
+
+}
+.image:hover{
+	background: url("images/red.gif") no-repeat;
+	z-index:2;
+ background-size: 470px 300px;
+}

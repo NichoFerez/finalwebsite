@@ -1,0 +1,95 @@
+body{
+	background-color:black;
+	margin-top:30px;
+}
+
+p{font-family: 'Courier Prime', monospace;
+color: white;
+font-size: 15pt;
+padding-left:20px;
+padding-right:20px;}
+
+img{height:28vh;
+	width:26vw;
+	transform: rotate(180deg);
+border: 2px #228c22 dotted;
+padding:20px;}
+
+a{
+	font-family: 'Courier Prime', monospace;
+color: white;
+font-size: 15pt;
+text-decoration:none;
+}
+
+a:hover{color:red;}
+
+.parent{
+	display:flex;
+	justify-content:space-around;
+	flex-direction:row;
+	align-items:center;
+	flex-wrap:wrap;
+	height:0px;
+width:100%;
+height:930px;
+border: 10px;}
+
+
+.flexone{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	position:relative;
+	height:0px;
+width:500px;
+height:800px;
+transform: rotate(180deg);
+			transition:transform 2s ease 0.0s,
+				width 2s ease 2s,
+				height 2s ease 2s;
+			border: 2px #ceff00 solid;}
+
+.flextwo{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	position:relative;
+	height:0px;
+width:500px;
+height:800px;
+transform: rotate(180deg);
+			transition:transform 2s ease 0.0s,
+				width 2s ease 2s,
+				height 2s ease 2s;
+			border: 2px #ceff00 solid;
+		}
+
+.flexthree{
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	position:relative;
+	height:0px;
+width:500px;
+height:800px;
+transform: rotate(180deg);
+			transition:transform 2s ease 0.0s,
+				width 2s ease 2s,
+				height 2s ease 2s;
+				border: 2px #ceff00 solid;}
+	.flexone:hover{
+			transform: rotate(360deg)
+			;
+		}
+	.flextwo:hover{
+			transform: rotate(360deg)
+			;
+		}
+	.flexthree:hover{
+			transform:rotate(360deg)
+			;
+		}

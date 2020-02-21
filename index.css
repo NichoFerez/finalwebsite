@@ -1,0 +1,168 @@
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+
+body{
+background-color:black;
+  }
+
+  p.title{font-family: 'Courier Prime', monospace;
+  color:#ceff00;
+  font-size: 50px;
+  margin-left:79px;}
+
+ 
+}
+ p{
+	font-family: 'Courier Prime', monospace;
+	color:#ceff00;
+	font-size: 50px;
+	margin-left:79px;
+
+
+}
+
+  a {
+    font-family: 'Courier Prime', monospace;
+    font-size:50px;
+    color:#BF0000;
+    text-decoration: none;
+
+  }
+
+  .background {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+b{ font-weight:bold;
+}
+
+
+
+  .image1 {
+    height:550px;
+    width:800px;
+    transform: rotate(20deg);
+    margin-left:930px;
+    bottom:100px;
+    position:relative;
+    z-index:1;
+    }
+
+  .image2 {
+    height:650px;
+    width:1000px;
+    transform:rotate(-3deg);
+    margin-left:20px;
+    bottom:580px;
+    position:relative;
+    z-index:2;
+    }
+
+
+  .image3 {
+    height:650px;
+    width:1000px;
+    transform:rotate(-20deg);
+    z-index:3;
+    margin-left:300px;
+    bottom:1080px;
+    position:relative;
+    }
+  p .first {
+    display: inline-block;
+    position: absolute;
+    left:1000px;
+    top: 725px;
+    z-index:4;
+    }
+
+  p .first:hover {
+    color: green;
+    text-decoration: none;
+    }   
+
+  p .second {
+    color:#fd6A02;
+    display:inline-block;
+    position:absolute;
+    left:80px;
+    top:487px;
+    z-index:5;
+
+   }   
+
+  p .second:hover{
+    color:magenta;
+    text-decoration:none;
+  }
+
+
+  p .third{
+    color:white;
+    display:inline-block;
+    position: absolute;
+    left:430px;
+    top:560px;
+    z-index:6;
+   }
+
+  p .third:hover{
+    color:lightblue;
+    text-decoration:none;
+   }
+
+
+  p .fourth{
+    color:#ceff00;
+    display: inline-block;
+    position: absolute;
+    left:1480px;
+    top: 593px;
+    z-index:7;
+    }
+
+  p .fourth:hover {
+    color: orange;
+    text-decoration: none;
+    }
+
+  p .fifth{color:black;
+    display: inline-block;
+    position: absolute;
+    left:1003px;
+    top: 390px;
+    z-index:8;}
+
+  p .fifth:hover{
+    color:purple;}
+  
+
+  p .sixth{color:blue;
+    display: inline-block;
+    position: absolute;
+    left:450px;
+    top: 200px;
+    z-index:9;}
+
+  p .sixth:hover{
+    color:#c49040;
+  }
+
+  p .seventh{color:magenta;
+    display: inline-block;
+    position: absolute;
+    left:900px;
+    top: 26px;
+    z-index:10;}
+
+  p .seventh:hover{
+    color:yellow;
+    text-decoration:none;
+  }
